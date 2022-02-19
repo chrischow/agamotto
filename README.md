@@ -15,6 +15,8 @@
     </a>
 </p>
 
+> **Note:** I've developed the basic prototype for **agamotto**. The code will be released in due time.
+
 <div id="features"></div>
 
 ## Features
@@ -106,9 +108,10 @@ Click on the ID in the results list to see details about that contract. Mouseove
 <a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
 
 ## Upcoming Features
-- Login
-- Admin dashboard
-- Use of PostgreSQL database instead of SQLite
+- [ ] Login
+- [ ] Admin dashboard
+- [ ] Use of PostgreSQL database instead of SQLite
+- [X] Docker build
 
 <a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
 
