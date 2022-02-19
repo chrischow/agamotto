@@ -15,6 +15,7 @@
     </a>
 </p>
 
+<div id="features"></div>
 
 ## Features
 1. **[Dashboard](#dashboard):** Overview of profits
@@ -34,6 +35,8 @@ Provides an overview of profits (open, realised, total) overall, by ticker, and 
 
 <div id="monitor"></div>
 
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
+
 ### Monitor
 Provides an overview of open options positions. It includes a quick back-of-the-envelope calculation of returns from buying back, rolling one week out, and rolling two weeks out.
 
@@ -46,6 +49,8 @@ More details on each position:
 <p align="center">
     <img src="screenshots/monitor-detail.jpg">
 </p>
+
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
 
 <div id="manage"></div>
 
@@ -62,6 +67,8 @@ Add and edit trades:
     <img src="screenshots/manage-add.jpg">
 </p>
 
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
+
 <div id="scan"></div>
 
 ### Scan
@@ -73,12 +80,13 @@ Preset lists are provided (see bottom of README for full list):
     <img src="screenshots/scan-preset.jpg">
 </p>
 
-
 Alternatively, input a custom list of tickers to scan:
 
 <p align="center">
     <img src="screenshots/scan-custom.jpg">
 </p>
+
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
 
 <div id="analyse"></div>
 
@@ -95,10 +103,14 @@ Click on the ID in the results list to see details about that contract. Mouseove
     <img src="screenshots/analyse-detail.jpg">
 </p>
 
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
+
 ## Upcoming Features
 - Login
 - Admin dashboard
 - Use of PostgreSQL database instead of SQLite
+
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
 
 ## Preset Lists for Scanning
 
@@ -196,3 +208,5 @@ SPHQ, SPIB, SPIP, SPLB, SPMB, SPMD, SPSB, SPSM, SPTI, SPTL, SPTS, SPXS, SPYD, SP
 SRLN, SRVR, SUSB, TIPX, TMF, TOTL, TUR, TZA, URA, USFR, USHY, USO, UUP, UVXY, VIXY,
 VRP, VXX, XLE, XLF, XLRE, XME, XSOE, ZSL
 ```
+
+<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
