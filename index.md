@@ -6,6 +6,8 @@ description: "Options Wheel Strategy Management"
 permalink: /
 ---
 
+root
+
 <p align="center">
     <img src="project/static/img/agamotto.png" width="300">
 </p>
