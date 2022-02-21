@@ -32,7 +32,7 @@ Note that open capital gains on stocks are not included here, since the assumpti
 </p>
 
 ## Stock Holdings
-Given that capital gains are not tracked, 
+Given that capital gains are not tracked, **agamotto** provides a list of stocks you are currently holding onto.
 
 ## Profit Breakdown
 Profits are broken down by strategy, ticker, and trade.
