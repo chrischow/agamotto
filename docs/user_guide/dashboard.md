@@ -34,6 +34,13 @@ Note that open capital gains on stocks are not included here, since the assumpti
 ## Stock Holdings
 Given that capital gains are not tracked, **agamotto** provides a list of stocks you are currently holding onto.
 
+#### Stock Holdings
+{: .no_toc }
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-stocks.jpg">
+</p>
+
 ## Profit Breakdown
 Profits are broken down by strategy, ticker, and trade.
 

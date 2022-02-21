@@ -21,5 +21,9 @@ A simple app to help you stay on top of your Wheel options trading strategy.
         <a href="/agamotto/getting_started" class="btn btn-purple">
         Get Started
         </a>
+        <a href="https://github.com/chrischow/agamotto" class="btn">
+        View on Github
+        </a>
+        
     </span>
 </p>
