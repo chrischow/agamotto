@@ -47,7 +47,15 @@ cd agamotto
 pip install -r requirements.txt
 ```
 
-Then, initialise the admin account:
+Next, initialise the Flask database:
+
+```bash
+flask db init
+flask db migrate -m "Initialise database"
+flask db upgrade
+```
+
+Then, create the admin account:
 
 ```bash
 python create_admin.py
