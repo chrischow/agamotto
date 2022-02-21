@@ -1,1 +1,11 @@
+title: agamotto
+description: Options Wheel Strategy Management
 remote_theme: pmarsceill/just-the-docs
+baseurl: "/agamotto"
+url: "https://chrischow.github.io"
+permalink: pretty
+
+search_enabled: true
+back_to_top: true
+
+footer_content: "Copyright &copy; 2022 Chris Chow. Distributed under the <a href=\"https://github.com/chrischow/agamotto/tree/master/LICENSE\">MIT license.</a>"
