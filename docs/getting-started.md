@@ -47,6 +47,12 @@ cd agamotto
 pip install -r requirements.txt
 ```
 
+Then, initialise the admin account:
+
+```bash
+python create_admin.py
+```
+
 ### With Docker
 I have yet to upload the image to Docker Hub. Until then, you'll need to build the Docker image locally:
 
@@ -54,6 +60,8 @@ I have yet to upload the image to Docker Hub. Until then, you'll need to build t
 cd agamotto
 docker build --tag agamotto .
 ```
+
+> **Future Work:** Push container image to Docker hub. Update instructions for getting image.
 
 ## Usage
 
