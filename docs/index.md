@@ -15,6 +15,6 @@ description: "Options Wheel Strategy Management"
 
 <br>
 
-<span class="fs-5">
-[Get Started](https://github.com/chrischow/agamotto){: .btn .btn-purple .m-auto .text-center }
+<span class="fs-5 text-center">
+[Get Started](getting-started.md){: .btn .btn-purple .m-auto }
 </span>

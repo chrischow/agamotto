@@ -37,7 +37,7 @@ May remove this section.
 ## Profit Breakdown
 Profits are broken down by strategy, ticker, and trade.
 
-### Strategy
+### Strategy: Overview
 Strategies are groups of put/stock/call trades, meant to capture the structure of a Wheel. This will be covered in greater detail in the [Manage](manage.md) section.
 
 This section provides an overview of the statuses of your Strategies. In particular, it computes the total premiums collected for all Strategies, and the cost basis for Strategies in which you have been assigned stock.
@@ -49,6 +49,7 @@ This section provides an overview of the statuses of your Strategies. In particu
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-strategy.jpg">
 </p>
 
+### Strategy: Detail
 Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using key metrics from the overview, a timeline / Gantt chart of the trades under the Strategy, and information about each trade.
 
 #### Strategy Details: Overview
@@ -60,7 +61,7 @@ Click on the Strategy code to see more details about that Strategy. The detail v
 
 <br>
 
-In the trades table, put/call options that are currently open are monitored by **agamotto**. Click the date in the Opened column to jump to that option's detailed view under the [Monitor](monitor.md) tab.
+In the trades table below, put/call options that are currently open are monitored by **agamotto**. Click the date in the Opened column to jump to that option's detailed view under the [Monitor](monitor.md) tab.
 
 #### Strategy Details: Trades
 {: .no_toc }
@@ -70,7 +71,7 @@ In the trades table, put/call options that are currently open are monitored by *
 </p>
 
 ### Ticker
-Breakdown by ticker.
+The table below provides a breakdown of profits by ticker.
 
 #### Profits by Ticker
 {: .no_toc }
@@ -80,7 +81,7 @@ Breakdown by ticker.
 </p>
 
 ### Trade
-Breakdown by trade.
+The table below provides a breakdown of profits by trade.
 
 #### Profits by Trade
 {: .no_toc }
