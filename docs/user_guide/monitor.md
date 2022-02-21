@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Monitor
-nav_order: 3
+nav_order: 2
+parent: User Guide
 ---
 
 # Monitor

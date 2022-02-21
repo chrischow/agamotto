@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Dashboard
-nav_order: 2
+nav_order: 1
+parent: User Guide
 ---
 
 # Dashboard
 {: .no_toc }
 
-The Dashboard provides you with a snapshot of how your strategy is doing by breaking down your profits.
+The Dashboard provides you with a snapshot of your profits.
 
 1. Overview Section
 2. Stock Holdings

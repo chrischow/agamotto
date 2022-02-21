@@ -2,7 +2,7 @@
 layout: default
 title: Scan
 parent: User Guide
-nav_order: 5
+nav_order: 4
 ---
 
 # Scan

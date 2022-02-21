@@ -1,5 +1,6 @@
 ---
 layout: default
 title: Manage
-nav_order: 4
+nav_order: 3
+parent: User Guide
 ---
