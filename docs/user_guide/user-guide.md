@@ -7,5 +7,5 @@ permalink: /user_guide
 ---
 
 # User Guide
-A walkthrough of the features of **agamotto**.
+A walkthrough of **agamotto**'s features.
 {: .fs-6 .fw-300}

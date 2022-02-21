@@ -3,19 +3,19 @@
 </p>
 
 # agamotto - Wheel Options Strategy Management
-**agamotto** is a simple Flask app help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
 
-<br>
 <p>
     <a href="https://www.python.org/">
         <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
     </a>
     <a href="https://flask.palletsprojects.com/en/2.0.x/">
-        <img src="https://raw.githubusercontent.com/pallets/flask-website/master/flask_website/static/badges/powered-by-flask-s.png" height="35">
+        <img src="https://raw.githubusercontent.com/pallets/flask-website/master/flask_website/static/badges/powered-by-flask-s.png">
     </a>
 </p>
 
-> **Note:** I've developed the basic prototype for **agamotto**. The code will be released in due time.
+**agamotto** is a simple Flask app help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
+
+> **Note:** Code for the alpha version of **agamotto** will be released in due time.
 
 ## Prerequisites
 
