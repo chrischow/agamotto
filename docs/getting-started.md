@@ -8,8 +8,13 @@ permalink: /getting_started
 # Getting Started
 {: .no_toc }
 
+---
+
+#### Table of Contents
 1. TOC
 {:toc}
+
+---
 
 ## Prerequisites
 
