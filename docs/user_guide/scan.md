@@ -22,7 +22,7 @@ This is where the app is somewhat opinionated: scans are **limited to put option
 - If you have to **roll** the put, you can only choose the strike and expiry, in which case the underlying's options chain should suffice in providing you the info you need.
 - If you get **assigned** and need to start selling covered calls, you only have a choice over the expiry date and *some* strikes, depending on your cost basis. The underlying's options chains should also suffice.
 
-### Preset Lists
+## Preset Lists
 Preset lists are provided for scanning (see table below). Most of these are lists of ETFs with options. ETFs were chosen because of their relative stability. In the event that you get assigned, you may be more comfortable (or at least, I am) holding an ETF instead of a small set of stocks. The remaining lists are lists of stocks in several popular ETFs. See the full list of tickers [here](#preset-lists).
 
 #### Scan: Presets
@@ -54,7 +54,7 @@ Do not run multiple preset scans in quick succession. Wait approximately 1 minut
   
 > **Future Work:** Enable creation of presets.
 
-### Custom Scans
+## Custom Scans
 Alternatively, you can run scans on a custom list of tickers. Be sure to check the checkbox if running a scan for ETFs - this applies to all tickers being scanned.
 
 #### Scan: Custom
@@ -64,7 +64,9 @@ Alternatively, you can run scans on a custom list of tickers. Be sure to check t
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-custom.jpg" width="400">
 </p>
 
-<h2>Update Stock Metadata</h2><span class="label label-yellow">WIP</span>
+## Update Stock Metadata
+
+<span class="label label-yellow">WIP</span>
 
 This scan primarily supports the other scans. It is automatically run when you launch scans on tickers that **agamotto** does not have metadata on, but can be run manually as well. The output is information on specific companies and their stock price movement statistics.
 
@@ -76,9 +78,12 @@ This scan primarily supports the other scans. It is automatically run when you l
 > **Future Work:** Consider removing this. **agamotto** is for *option* selection, not for stock selection.
 
 
-<h2 id="preset-lists">Preset Lists</h2>
+<div id="preset-lists"></div>
+
+## Tickers in Preset Lists
 
 ### iShares MSCI USA Min. Volatility Factor ETF
+{: .no_toc }
 
 ```
 AAPL, ABT, AEP, AJG, AKAM, ALL, AMAT, AMCR, APH, ATVI, BAH, BAX, BKI, BLL, BMRN,
@@ -91,6 +96,7 @@ WEC, WM, WMT, WU, XEL
 ```
 
 ### Invesco QQQ Trust Series 1
+{: .no_toc }
 
 ```
 AAPL, AEP, AMAT, AMD, ATVI, CDNS, CERN, CHKP, CMCSA, CPRT, CSCO, CSX, CTSH, DLTR,
@@ -100,6 +106,7 @@ SIRI, SPLK, TCOM, TMUS, WBA, XEL, XLNX
 ```
 
 ### Vanguard Growth Index Fund ETF
+{: .no_toc }
 
 ```
 [Part 1]
@@ -118,6 +125,7 @@ ZG, ZI
 ```
 
 ### ETFs with Weeklies
+{: .no_toc }
 
 ```
 AGQ, AMLP, ARKF, ARKK, ASHR, BLCN, BLOK, DIA, DUST, EEM, EFA, EMB, ERX, EWC, EWH,
@@ -128,6 +136,7 @@ UUP, UVXY, VIXM, VIXY, VXX, XLC, XLE, XLF, XLI, XLK, XLY, XME, YINN
 ```
 
 ### ETF: Above $100, Average Volume > 200k
+{: .no_toc }
 
 ```
 ACWI, AGG, ARKK, ARKW, BLV, DIA, DPST, DVY, EDV, EFG, EMB, ESGU, FAS, FDN, FTEC,
@@ -140,6 +149,7 @@ XBI, XLI, XLK, XLV, XLY
 ```
 
 ### ETF: $50-100, Average Volume > 200k
+{: .no_toc }
 
 ```
 [Part 1]
@@ -160,6 +170,7 @@ XLB, XLC, XLP, XLU, XOP, XRT
 ```
 
 ### ETF: $20-50, Average Volume > 200k
+{: .no_toc }
 
 ```
 [Part 1]

@@ -102,7 +102,11 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 
 ## Future Work
 - [ ] Push container to Docker Hub
-- [ ] Use of PostgreSQL database instead of SQLite
+- [ ] Feature to download data, maybe on the Admin dashboard?
+    - [ ] CSV file
+    - [ ] SQL file
+- [ ] Write docs for backing up data
+- [ ] User personalisation features
 - Dashboard:
     - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
 - Manage:
