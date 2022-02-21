@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Under the Hood
+title: Developer Guide
 nav_order: 4
 has_children: true
-permalink: /under_the_hood
+permalink: /developer_guide
 ---
 
-# Under the Hood
+# Developer Guide
 A detailed description of the technical side of **agamotto** for developers and my future forgetful self to understand how the app works.
 {: .fs-6 .fw-300}

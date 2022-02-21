@@ -12,12 +12,14 @@ permalink: /
 </p>
 
 A simple app to help you stay on top of your Wheel options trading strategy.
-{: .fs-6 .fw-300}
+{: .fs-6 .fw-300 .text-center}
 
 <br>
 
 <p align="center">
     <span class="fs-5 text-center">
-    [Get Started](getting-started.md){: .btn .btn-purple .m-auto }
+        <a href="/getting-started" class=".btn .btn-purple">
+        Get Started
+        </a>
     </span>
 </p>
