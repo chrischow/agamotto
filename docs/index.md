@@ -18,7 +18,7 @@ A simple app to help you stay on top of your Wheel options trading strategy.
 
 <p align="center">
     <span class="fs-5 text-center">
-        <a href="/getting-started" class="btn btn-purple">
+        <a href="/agamotto/getting-started" class="btn btn-purple">
         Get Started
         </a>
     </span>

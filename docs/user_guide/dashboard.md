@@ -22,7 +22,7 @@ This section provides an overview of your profits, broken down by (1) open profi
 | Realised    | Premiums from puts and calls options that **have been closed**, and capital gains |
 | Total       | Sum of open and realised profits |
 
-Note that open profits on stocks are not included here, since the assumption is that we will either hold these stocks over the long term, or they will be called away at some point at your call option's strike price.
+Note that open capital gains on stocks are not included here, since the assumption is that we will either hold these stocks over the long term, or they will be called away at some point at your call option's strike price.
 
 #### Dashboard
 {: .no_toc }
@@ -32,7 +32,7 @@ Note that open profits on stocks are not included here, since the assumption is 
 </p>
 
 ## Stock Holdings
-May remove this section.
+Given that capital gains are not tracked, 
 
 ## Profit Breakdown
 Profits are broken down by strategy, ticker, and trade.

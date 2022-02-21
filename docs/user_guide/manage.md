@@ -23,6 +23,9 @@ All trades are presented in a searchable and sortable table. Each *trade* captur
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/manage-overview.jpg">
 </p>
 
+## Trades and Strategies
+**agamotto** tracks your performance through **trades**.
+
 ## Adding a Trade
 To add a trade, click the Add Trade button to go to a form for entering data. The mandatory fields are:
 
