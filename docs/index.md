@@ -3,6 +3,7 @@ layout: default
 title: agamotto
 nav_order: 1
 description: "Options Wheel Strategy Management"
+permalink: /
 ---
 
 
@@ -15,8 +16,6 @@ A simple app to help you stay on top of your Wheel options trading strategy.
 
 <br>
 
-<p text-align="center">
-    <span class="fs-5 text-center">
-    [Get Started](getting-started.md){: .btn .btn-purple .m-auto }
-    </span>
-</p>
+<span class="fs-5 text-center">
+<a href="https://chrischow.github.io/agamotto/docs/getting-st"[Get Started](getting-started.md){: .btn .btn-purple .m-auto }
+</span>

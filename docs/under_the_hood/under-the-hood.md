@@ -3,7 +3,7 @@ layout: default
 title: Under the Hood
 nav_order: 4
 has_children: true
-permalink: /docs/under_the_hood
+permalink: /under_the_hood
 ---
 
 # Under the Hood
