@@ -1,9 +1,5 @@
 <p align="center">
-    <img src="project/static/img/agamotto.png" width=300>
-</p>
-
-<p align="center">
-    <img src="project/static/img/agamotto_word.png" width="300">
+    <img src="project/static/img/agamotto_with_word.png" width="300">
 </p>
 
 # agamotto - Options Wheel Strategy Management
@@ -83,65 +79,8 @@ Launch the app using Docker Compose. It can be accessed at `localhost:5050`.
 docker-compose up
 ```
 
-<div id="features"></div>
-
 ## Features
-1. **[Dashboard](dashboard.md):** Overview of profits
-2. **[Monitor](monitor.md):** Status of open trades to inform decision making
-3. **[Manage](#manage):** View, add, and edit trades
-4. **[Scan](#scan):** Run searches for profitable options
-5. **[Analyse](#analyse):** Analyse search results
-
-### Manage
-View a list of all your trades. Each *trade* captures (1) an opening transaction, (2) a closing transaction, and (3) metadata about the trade.
-
-<p align="center">
-    <img src="screenshots/manage-list.jpg">
-</p>
-
-Add and edit trades:
-
-<p align="center">
-    <img src="screenshots/manage-add.jpg">
-</p>
-
-<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
-
-<div id="scan"></div>
-
-### Scan
-Scan options contracts across a list of tickers. Queries are run in separate threads.
-
-Preset lists are provided (see full list [here](https://github.com/chrischow/agamotto_v2/blob/main/preset_ticker_lists.md)):
-
-<p align="center">
-    <img src="screenshots/scan-preset.jpg">
-</p>
-
-Alternatively, input a custom list of tickers to scan:
-
-<p align="center">
-    <img src="screenshots/scan-custom.jpg">
-</p>
-
-<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
-
-<div id="analyse"></div>
-
-### Analyse
-After scans are run, analyse the results under this tab. Results from the scans are not automatically populated - manual refreshes are required.
-
-<p align="center">
-    <img src="screenshots/analyse-results.jpg">
-</p>
-
-Click on the ID in the results list to see details about that contract. Mouseover the strike price to see a chart on the underlying.
-
-<p align="center">
-    <img src="screenshots/analyse-detail.jpg">
-</p>
-
-<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
+See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough of the app.
 
 ## Upcoming Features
 - [X] Login
@@ -153,12 +92,9 @@ Click on the ID in the results list to see details about that contract. Mouseove
 - [ ] Admin dashboard - for what though
 - [ ] Use of PostgreSQL database instead of SQLite
 
-<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>
 
 ## About the Project
 **agamotto** is © 2022 by Christian Chow.
 
 ### License
 It is distributed under the [MIT License](LICENSE).
-
-<a href="#features" style="font-size: 1.0rem;">Back to top ↩</a>

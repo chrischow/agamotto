@@ -25,9 +25,10 @@ This section provides an overview of your profits, broken down by (1) open profi
 Note that open profits on stocks are not included here, since the assumption is that we will either hold these stocks over the long term, or they will be called away at some point at your call option's strike price.
 
 #### Dashboard
-<br>
+{: .no_toc }
+
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-overview.jpg">
 </p>
 
 ## Stock Holdings
@@ -42,24 +43,40 @@ Strategies are groups of put/stock/call trades, meant to capture the structure o
 This section provides an overview of the statuses of your Strategies. In particular, it computes the total premiums collected for all Strategies, and the cost basis for Strategies in which you have been assigned stock.
 
 #### Profits by Strategy
-<br>
-(Placeholder for screenshot)
+{: .no_toc }
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit-breakdown-strategy.jpg">
+</p>
 
 Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using key metrics from the overview, a timeline / Gantt chart of the trades under the Strategy, and information about each trade.
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-strategy-detail-overview.jpg">
+</p>
+
 <br>
-(Placeholder for screenshot)
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-strategy-detail-trades.jpg">
+</p>
 
 ### Ticker
 Breakdown by ticker.
 
 #### Profits by Ticker
-<br>
-(Placeholder for screenshot)
+{: .no_toc }
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit-breakdown-ticker.jpg">
+</p>
 
 ### Trade
 Breakdown by trade.
 
 #### Profits by Trade
-<br>
-(Placeholder for screenshot)
+{: .no_toc }
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit-breakdown-trade.jpg">
+</p>
