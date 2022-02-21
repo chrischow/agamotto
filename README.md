@@ -90,15 +90,30 @@ docker-compose up
 ## Features
 See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough of the app.
 
-## Upcoming Features
+## Future Work
+- [ ] Push container to Docker Hub
+- [ ] Use of PostgreSQL database instead of SQLite
+- Dashboard:
+    - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
+- Manage:
+    - [ ] Create dedicated view for each trade as an intermediate page between the list of all trades and the edit page
+    - [ ] Create feature for deleting trades
+- Scan:
+    - [ ] Consider removing stock metadata scan - **agamotto** is for *option* selection, not for stock selection
+    - [ ] Enable creation of presets
+- Analyse:
+    - [ ] Convert stock metadata table to one with more qualitative information e.g. sector, industry, and company description
+    - [ ] Add dedicated stock page and more info on the stock
+
+<details>
+<summary>Implemented</summary>
 - [X] Login
 - [X] Docker build
 - [X] Strategy breakdown
     - [X] Overall table
     - [X] Plotly plot with wheel design
-- [ ] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
-- [ ] Admin dashboard - for what though
-- [ ] Use of PostgreSQL database instead of SQLite
+- [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
+</details>
 
 
 ## About the Project

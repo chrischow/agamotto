@@ -68,11 +68,11 @@ Alternatively, you can run scans on a custom list of tickers. Be sure to check t
 WIP
 {: .label .label-yellow}
 
-This scan is a work in progress. It is automatically run when you launch scans on tickers that **agamotto** does not have metadata on, but can manually run as well. The output is information on specific companies and their stock price movement statistics.
+This scan primarily supports the other scans. It is automatically run when you launch scans on tickers that **agamotto** does not have metadata on, but can be run manually as well. The output is information on specific companies and their stock price movement statistics.
 
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-stock-metadata.jpg" width="400">
 </p>
 
-> **Future Work:** Add dedicated stock page and more info on the stock.
+> **Future Work:** Consider removing this. **agamotto** is for *option* selection, not for stock selection.
