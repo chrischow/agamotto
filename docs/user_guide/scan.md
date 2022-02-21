@@ -8,10 +8,7 @@ nav_order: 4
 # Scan
 {: .no_toc }
 
-1. Scan Options
-    1. Preset Scans
-    2. Custom Scans
-2. Update Stock Metadata
+1. TOC
 {:toc}
 
 ## Scan Options

@@ -15,9 +15,10 @@ description: "Options Wheel Strategy Management"
 </p>
 
 **agamotto** enables you to stay on top of your Wheel options trading strategy.
+{: .fs-6 .fw-300}
 
 <br>
 
 <span class="fs-5">
-[Get Started](https://github.com/chrischow/agamotto){: .btn .btn-purple .m-auto }
+[Get Started](https://github.com/chrischow/agamotto){: .btn .btn-purple .m-auto .text-center }
 </span>

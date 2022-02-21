@@ -10,11 +10,7 @@ parent: User Guide
 
 The Dashboard provides you with a snapshot of your profits.
 
-1. Overview Section
-2. Stock Holdings
-3. Profit Breakdown
-    1. Strategy
-    2. 
+1. TOC
 {:toc}
 
 ## Overview Section
@@ -27,6 +23,8 @@ This section provides an overview of your profits, broken down by (1) open profi
 | Total       | Sum of open and realised profits |
 
 Note that open profits on stocks are not included here, since the assumption is that we will either hold these stocks over the long term, or they will be called away at some point at your call option's strike price.
+
+#### Dashboard
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard.jpg">
@@ -43,6 +41,8 @@ Strategies are groups of put/stock/call trades, meant to capture the structure o
 
 This section provides an overview of the statuses of your Strategies. In particular, it computes the total premiums collected for all Strategies, and the cost basis for Strategies in which you have been assigned stock.
 
+#### Profits by Strategy
+
 (Placeholder for screenshot)
 
 Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using key metrics from the overview, a timeline / Gantt chart of the trades under the Strategy, and information about each trade.
@@ -52,5 +52,13 @@ Click on the Strategy code to see more details about that Strategy. The detail v
 ### Ticker
 Breakdown by ticker.
 
+#### Profits by Ticker
+
+(Placeholder for screenshot)
+
 ### Trade
 Breakdown by trade.
+
+#### Profits by Trade
+
+(Placeholder for screenshot)
