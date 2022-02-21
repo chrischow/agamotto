@@ -3,7 +3,7 @@
 </p>
 
 # agamotto - Wheel Options Strategy Management
-**agamotto** is a simple Flask app to stay help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
+**agamotto** is a simple Flask app help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
 
 <br>
 <p>
@@ -21,7 +21,6 @@
 
 - Conda
 - A TD Ameritrade API key
-- Linux OS preferred; **agamotto** was not tested on Windows - use at your own risk
 - If you want to operate the app on Docker:
     - Docker
     - Docker Compose
