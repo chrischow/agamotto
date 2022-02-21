@@ -1,8 +1,8 @@
 title: agamotto
-description: Options Wheel Strategy Management
+description: "Options Wheel Strategy Management"
 remote_theme: pmarsceill/just-the-docs
-baseurl: "/agamotto"
-url: "https://chrischow.github.io"
+# baseurl: "/agamotto"
+# url: "https://chrischow.github.io"
 permalink: pretty
 
 search_enabled: true
