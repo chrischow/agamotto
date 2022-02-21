@@ -3,7 +3,7 @@ layout: default
 title: User Guide
 nav_order: 7
 has_children: true
-permalink: /docs/ui-components
+permalink: /docs/user_guide
 ---
 
 # User Guide

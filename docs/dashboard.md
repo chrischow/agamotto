@@ -9,6 +9,11 @@ nav_order: 2
 
 The Dashboard provides you with a snapshot of how your strategy is doing by breaking down your profits.
 
+1. Overview Section
+2. Stock Holdings
+3. Profit Breakdown
+    1. Strategy
+    2. 
 {:toc}
 
 ## Overview Section
@@ -42,3 +47,9 @@ This section provides an overview of the statuses of your Strategies. In particu
 Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using key metrics from the overview, a timeline / Gantt chart of the trades under the Strategy, and information about each trade.
 
 (Placeholder for screenshot)
+
+### Ticker
+Breakdown by ticker.
+
+### Trade
+Breakdown by trade.
