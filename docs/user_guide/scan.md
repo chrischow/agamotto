@@ -10,6 +10,7 @@ nav_order: 4
 
 The Scan feature allows you to identify potential **put options** to kickstart your Wheel strategy.
 
+#### Table of Contents
 1. TOC
 {:toc}
 

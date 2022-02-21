@@ -1,6 +1,6 @@
 ---
 layout: default
-title: agamotto
+title: Home
 nav_order: 1
 description: "Options Wheel Strategy Management"
 permalink: /

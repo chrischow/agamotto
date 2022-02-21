@@ -10,6 +10,7 @@ parent: User Guide
 
 The Monitor tab provides an overview of open options positions.
 
+#### Table of Contents
 1. TOC
 {:toc}
 

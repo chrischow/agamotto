@@ -10,6 +10,7 @@ parent: User Guide
 
 The Analyse tab presents the results of your [scan](scan.md). Results from scans are not automatically detected - manual refreshes are required.
 
+#### Table of Contents
 1. TOC
 {:toc}
 

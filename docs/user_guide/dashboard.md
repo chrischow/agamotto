@@ -10,6 +10,7 @@ parent: User Guide
 
 The Dashboard provides you with a snapshot of your profits.
 
+#### Table of Contents
 1. TOC
 {:toc}
 

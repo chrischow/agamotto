@@ -10,6 +10,7 @@ parent: User Guide
 
 The Manage tab provides a list of all your trades.
 
+#### Table of Contents
 1. TOC
 {:toc}
 
