@@ -13,7 +13,7 @@ The Manage tab provides a list of all your trades.
 1. TOC
 {:toc}
 
-## Overview
+## Overview Section
 All trades are presented in a searchable and sortable table. Each *trade* captures (1) an opening transaction, (2) a closing transaction, and (3) metadata about the trade.
 
 #### Manage: Overview
@@ -51,4 +51,4 @@ When you close a trade, it is essential to update the closing date, price, and f
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/manage-edit.jpg">
 </p>
 
-> **Future Work:** Create a dedicated view for each trade as an intermediate page between the list of all trades and the edit page.
+> **Future Work:** Create a dedicated view for each trade as an intermediate page between the list of all trades and the edit page. Also allow deleting trades.

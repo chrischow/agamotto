@@ -10,11 +10,13 @@ description: "Options Wheel Strategy Management"
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/project/static/img/agamotto_with_word.png" width="300">
 </p>
 
-**agamotto** enables you to stay on top of your Wheel options trading strategy.
+A simple app to help you stay on top of your Wheel options trading strategy.
 {: .fs-6 .fw-300}
 
 <br>
 
-<span class="fs-5 text-center">
-[Get Started](getting-started.md){: .btn .btn-purple .m-auto }
-</span>
+<p text-align="center">
+    <span class="fs-5 text-center">
+    [Get Started](getting-started.md){: .btn .btn-purple .m-auto }
+    </span>
+</p>
