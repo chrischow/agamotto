@@ -16,6 +16,8 @@ A simple app to help you stay on top of your Wheel options trading strategy.
 
 <br>
 
-<span class="fs-5 text-center">
-<a href="https://chrischow.github.io/agamotto/docs/getting-st"[Get Started](getting-started.md){: .btn .btn-purple .m-auto }
-</span>
+<p align="center">
+    <span class="fs-5 text-center">
+    [Get Started](getting-started.md){: .btn .btn-purple .m-auto }
+    </span>
+</p>

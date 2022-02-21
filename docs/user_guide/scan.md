@@ -40,7 +40,7 @@ Preset lists:
 
 Each list has *about* 100 tickers. The reason is to fit the scans within the TD Ameritrade API's rate limits.
 
-<span class="text-red-200 fs-6 fw-700">
+<span class="text-red-200 fs-5 fw-700">
 Do not run multiple preset scans in quick succession. Wait approximately 1 minute after the completion of the first scan before launching another one.
 </span>
   
