@@ -23,7 +23,15 @@ This is where the app is somewhat opinionated: scans are **limited to put option
 - If you get **assigned** and need to start selling covered calls, you only have a choice over the expiry date and *some* strikes, depending on your cost basis. The underlying's options chains should also suffice.
 
 ### Preset Lists
-Preset lists are provided for scanning (see table below). Most of these are lists of ETFs with options. ETFs were chosen because of their relative stability. In the event that you get assigned, you may be more comfortable (or at least, I am) holding an ETF instead of a small set of stocks. The remaining lists are lists of stocks in several popular ETFs. See the full list of tickers [here](https://github.com/chrischow/agamotto_v2/blob/main/preset_ticker_lists.md). 
+Preset lists are provided for scanning (see table below). Most of these are lists of ETFs with options. ETFs were chosen because of their relative stability. In the event that you get assigned, you may be more comfortable (or at least, I am) holding an ETF instead of a small set of stocks. The remaining lists are lists of stocks in several popular ETFs. See the full list of tickers [here](https://github.com/chrischow/agamotto_v2/blob/main/preset_ticker_lists.md).
+
+#### Scan: Presets
+{: .no_toc }
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-presets.jpg" width="400">
+</p>
+
 
 Preset lists:
 
@@ -40,16 +48,31 @@ Preset lists:
 
 Each list has *about* 100 tickers. The reason is to fit the scans within the TD Ameritrade API's rate limits.
 
-<span class="text-red-200 fs-5 fw-700">
+<span class="text-red-100 fs-5 fw-700">
 Do not run multiple preset scans in quick succession. Wait approximately 1 minute after the completion of the first scan before launching another one.
 </span>
   
-    
-
 > **Future Work:** Enable creation of presets.
 
 ### Custom Scans
-Custom scans.
+Alternatively, you can run scans on a custom list of tickers. Be sure to check the checkbox if running a scan for ETFs - this applies to all tickers being scanned.
+
+#### Scan: Custom
+{: .no_toc }
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-custom.jpg" width="400">
+</p>
 
 ## Update Stock Metadata
-Update stock metadata.
+WIP
+{: .label .label-yellow}
+
+This scan is a work in progress. It is automatically run when you launch scans on tickers that **agamotto** does not have metadata on, but can manually run as well. The output is information on specific companies and their stock price movement statistics.
+
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-stock-metadata.jpg" width="400">
+</p>
+
+> **Future Work:** Add dedicated stock page and more info on the stock.
