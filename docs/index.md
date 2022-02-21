@@ -5,7 +5,6 @@ nav_order: 1
 description: "Options Wheel Strategy Management"
 ---
 
-folder
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/project/static/img/agamotto.png" width="300">
@@ -17,6 +16,8 @@ folder
 
 **agamotto** enables you to stay on top of your Wheel options trading strategy.
 
+<br>
+
 <span class="fs-5">
-[Get Started](https://github.com/chrischow/agamotto){: .btn }
+[Get Started](https://github.com/chrischow/agamotto){: .btn .btn-purple .m-auto }
 </span>
