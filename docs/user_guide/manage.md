@@ -10,9 +10,13 @@ parent: User Guide
 
 The Manage tab provides a list of all your trades.
 
+---
+
 #### Table of Contents
 1. TOC
 {:toc}
+
+---
 
 ## About Trades and Strategies
 **agamotto** tracks your performance through **trades**. Each put/stock/call trade captures (1) an opening transaction, (2) a closing transaction, and (3) metadata about the trade.

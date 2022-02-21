@@ -10,9 +10,13 @@ nav_order: 4
 
 The Scan feature allows you to identify potential **put options** to kickstart your Wheel strategy.
 
+---
+
 #### Table of Contents
 1. TOC
 {:toc}
+
+---
 
 ## Scan Options
 You have choices of two types of scans: (1) preset scans and (2) custom scans.

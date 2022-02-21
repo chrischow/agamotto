@@ -10,9 +10,13 @@ parent: User Guide
 
 The Dashboard provides you with a snapshot of your profits.
 
+---
+
 #### Table of Contents
 1. TOC
 {:toc}
+
+---
 
 ## Overview Section
 This section provides an overview of your profits, broken down by (1) open profit, (2) realised profit, and (3) total profit. A simple bar chart is also provided to display profits by month.
