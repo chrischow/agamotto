@@ -120,7 +120,7 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
     - [ ] Add dedicated stock page and more info on the stock
 
 <details>
-<summary>Implemented</summary>
+<summary><h3>Implemented</h3></summary>
 
 - [X] Login
 - [X] Docker build
