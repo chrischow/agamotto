@@ -2,8 +2,8 @@
     <img src="project/static/img/agamotto_with_word.png" width="300">
 </p>
 
-# agamotto - Options Wheel Strategy Management
-**agamotto** is a Flask app to manage your Wheel strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
+# agamotto - Wheel Options Strategy Management
+**agamotto** is a simple Flask app to stay help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
 
 <br>
 <p>
@@ -107,12 +107,14 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 
 <details>
 <summary>Implemented</summary>
+
 - [X] Login
 - [X] Docker build
 - [X] Strategy breakdown
     - [X] Overall table
     - [X] Plotly plot with wheel design
 - [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
+
 </details>
 
 
