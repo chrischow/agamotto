@@ -16,3 +16,7 @@ folder
 </p>
 
 **agamotto** enables you to stay on top of your Wheel options trading strategy.
+
+<span class="fs-5">
+[Get Started](https://github.com/chrischow/agamotto){: .btn }
+</span>
