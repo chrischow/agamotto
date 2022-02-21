@@ -13,6 +13,8 @@ The Scan feature allows you to identify potential **put options** to kickstart y
 ---
 
 #### Table of Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 

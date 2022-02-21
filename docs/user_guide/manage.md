@@ -13,6 +13,8 @@ The Manage tab provides a list of all your trades.
 ---
 
 #### Table of Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 

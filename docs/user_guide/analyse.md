@@ -13,6 +13,8 @@ The Analyse tab presents the results of your [scan](scan.md). Results from scans
 ---
 
 #### Table of Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 

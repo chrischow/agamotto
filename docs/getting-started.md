@@ -11,6 +11,8 @@ permalink: /getting_started
 ---
 
 #### Table of Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 

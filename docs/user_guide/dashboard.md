@@ -13,6 +13,8 @@ The Dashboard provides you with a snapshot of your profits.
 ---
 
 #### Table of Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 

@@ -13,6 +13,8 @@ The Monitor tab provides an overview of open options positions.
 ---
 
 #### Table of Contents
+{: .no_toc }
+
 1. TOC
 {:toc}
 
