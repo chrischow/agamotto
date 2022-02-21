@@ -9,7 +9,7 @@
         <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
     </a>
     <a href="https://flask.palletsprojects.com/en/2.0.x/">
-        <img src="https://raw.githubusercontent.com/pallets/flask-website/master/flask_website/static/badges/powered-by-flask-s.png">
+        <img src="project/static/img/made-with-flask.svg">
     </a>
 </p>
 

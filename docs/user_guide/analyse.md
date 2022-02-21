@@ -10,9 +10,13 @@ parent: User Guide
 
 The Analyse tab presents the results of your [scan](scan.md). Results from scans are not automatically detected - manual refreshes are required.
 
+---
+
 #### Table of Contents
 1. TOC
 {:toc}
+
+---
 
 ## Options List
 This page lists the options found from your scans. The list is searchable, sortable, and filterable. Click on the ticker in the results list to see details about that contract. Mouseover the strike price to see a chart on the underlying.
