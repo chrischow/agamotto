@@ -61,6 +61,8 @@ flask db migrate -m "Initialise database"
 flask db upgrade
 ```
 
+> Consider doing this as part of the initialisation. Then, you can remove this step from both the "Without Docker" and Dockerfile instructions.
+
 Then, create the admin account:
 
 ```bash

@@ -15,7 +15,6 @@ permalink: /getting_started
 
 - Conda
 - A TD Ameritrade API key
-- Linux OS preferred; **agamotto** was not tested on Windows - use at your own risk
 - If you want to operate the app on Docker:
     - Docker
     - Docker Compose
