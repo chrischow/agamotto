@@ -46,16 +46,24 @@ This section provides an overview of the statuses of your Strategies. In particu
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit-breakdown-strategy.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-strategy.jpg">
 </p>
 
 Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using key metrics from the overview, a timeline / Gantt chart of the trades under the Strategy, and information about each trade.
+
+#### Strategy Details: Overview
+{: .no_toc }
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-strategy-detail-overview.jpg">
 </p>
 
 <br>
+
+In the trades table, put/call options that are currently open are monitored by **agamotto**. Click the date in the Opened column to jump to that option's detailed view under the [Monitor](monitor.md) tab.
+
+#### Strategy Details: Trades
+{: .no_toc }
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-strategy-detail-trades.jpg">
@@ -68,7 +76,7 @@ Breakdown by ticker.
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit-breakdown-ticker.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-ticker.jpg">
 </p>
 
 ### Trade
@@ -78,5 +86,5 @@ Breakdown by trade.
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit-breakdown-trade.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-trade.jpg">
 </p>

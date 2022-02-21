@@ -41,3 +41,5 @@ When you close a trade, it is essential to update the closing date, price, and f
 <p align="center">
     <img src="screenshots/manage-edit.jpg">
 </p>
+
+> **Future Work:** Create a dedicated view for each trade as an intermediate page between the list of all trades and the edit page.
