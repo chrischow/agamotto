@@ -102,11 +102,13 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 ## Future Work
 - Deployment:
     - [ ] Push container to Docker Hub
+    - [ ] Set up GitHub Actions for CI
 - Admin:
     - [ ] Use username instead of email
     - [ ] Update admin page to long view with multiple sections
 - Dashboard:
     - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
+    - [ ] Returns profile for strategy
 - Manage:
     - [ ] Create dedicated view for each trade as an intermediate page between the list of all trades and the edit page
     - [ ] Create feature for deleting trades
@@ -131,7 +133,7 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
     - [ ] Article on Medium.com
 
 <details>
-<summary><em>Implemented</em></summary>
+<summary><b>Implemented</b></summary>
 
 - Admin:
     - [X] Login
