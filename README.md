@@ -13,7 +13,7 @@
     </a>
 </p>
 
-**agamotto** is a simple Flask app help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
+**agamotto** is a simple Flask app to help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
 
 > **Note:** Code for the alpha version of **agamotto** will be released in due time.
 
@@ -110,6 +110,7 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 - Manage:
     - [ ] Create dedicated view for each trade as an intermediate page between the list of all trades and the edit page
     - [ ] Create feature for deleting trades
+    - [ ] Upload CSV function
 - Scan:
     - [ ] Consider removing stock metadata scan - **agamotto** is for *option* selection, not for stock selection
     - [ ] Enable creation of presets
@@ -117,17 +118,27 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
     - [ ] Convert stock metadata table to one with more qualitative information e.g. sector, industry, and company description
     - [ ] Add dedicated stock page and more info on the stock
 - Documentation:
-    - [ ] Write docs for backing up data
+    - [ ] Write docs for admin dashboard
+    - [ ] Re-locate images used for docs
+    - Re-factor docs to installation + deployment for different platforms
+        - [ ] Local development server
+        - [ ] Docker container with development server
+        - [ ] Google App Engine (using containers)
+        - [ ] Heroku
+        - [ ] PythonAnywhere
+- Publicity:
+    - [ ] Launch on Reddit
+    - [ ] Article on Medium.com
 
 <details>
-<summary>Implemented</summary>
+<summary><em>Implemented</em></summary>
 
 - Admin:
     - [X] Login
     - [X] Amend password change facility
     - [X] Feature to download data, maybe on the Admin dashboard?
         - [X] CSV file
-        - [X] SQL file
+        - [X] ~~SQL file~~ (removed due to security)
 - Deployment:
     - [X] Docker build
 - Dashboard:
