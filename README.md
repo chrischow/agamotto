@@ -103,11 +103,7 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 - Deployment:
     - [ ] Push container to Docker Hub
 - Admin:
-    - [ ] Feature to download data, maybe on the Admin dashboard?
-        - [ ] CSV file
-        - [ ] SQL file
     - [ ] Use username instead of email
-    - [ ] Amend password change facility 
     - [ ] Update admin page to long view with multiple sections
 - Dashboard:
     - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
@@ -126,12 +122,20 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 <details>
 <summary>Implemented</summary>
 
-- [X] Login
-- [X] Docker build
-- [X] Strategy breakdown
+- Admin:
+    - [X] Login
+    - [X] Amend password change facility
+    - [X] Feature to download data, maybe on the Admin dashboard?
+        - [X] CSV file
+        - [X] SQL file
+- Deployment:
+    - [X] Docker build
+- Dashboard:
+    - [X] Strategy breakdown
     - [X] Overall table
     - [X] Plotly plot with wheel design
-- [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
+- Documentation:
+    - [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
 
 </details>
 
