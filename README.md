@@ -100,12 +100,15 @@ docker-compose up
 See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough of the app.
 
 ## Future Work
-- [ ] Push container to Docker Hub
-- [ ] Feature to download data, maybe on the Admin dashboard?
-    - [ ] CSV file
-    - [ ] SQL file
-- [ ] Write docs for backing up data
-- [ ] User personalisation features
+- Deployment:
+    - [ ] Push container to Docker Hub
+- Admin:
+    - [ ] Feature to download data, maybe on the Admin dashboard?
+        - [ ] CSV file
+        - [ ] SQL file
+    - [ ] Use username instead of email
+    - [ ] Amend password change facility 
+    - [ ] Update admin page to long view with multiple sections
 - Dashboard:
     - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
 - Manage:
@@ -117,6 +120,8 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 - Analyse:
     - [ ] Convert stock metadata table to one with more qualitative information e.g. sector, industry, and company description
     - [ ] Add dedicated stock page and more info on the stock
+- Documentation:
+    - [ ] Write docs for backing up data
 
 <details>
 <summary>Implemented</summary>
