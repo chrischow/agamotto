@@ -52,7 +52,7 @@ Given that capital gains are not tracked, **agamotto** provides a list of stocks
 Profits are broken down by strategy, ticker, and trade.
 
 ### Strategy: Overview
-Strategies are groups of put/stock/call trades, meant to capture the structure of a Wheel and other theta-based trading strategies. This will be covered in greater detail in the [Manage](manage.md) section.
+Strategies are groups of put/stock/call trades, meant to capture the structure of a Wheel. This will be covered in greater detail in the [Manage](manage.md) section.
 
 This section provides an overview of the statuses of your Strategies. In particular, it computes the total premiums collected for all Strategies, and the cost basis for Strategies in which you have been assigned stock.
 

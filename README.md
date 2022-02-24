@@ -2,7 +2,7 @@
     <img src="project/static/img/agamotto_with_word.png" width="300">
 </p>
 
-# agamotto - Theta-based Options Strategy Management
+# agamotto - Wheel Options Strategy Management
 
 <p>
     <a href="https://www.python.org/">
@@ -13,7 +13,7 @@
     </a>
 </p>
 
-**agamotto** is a simple Flask app to help you stay on top of your theta-based options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
+**agamotto** is a simple Flask app to help you stay on top of your Wheel options trading strategy. Like the MCU's [Eye of Agamotto](https://marvel.fandom.com/wiki/Eye_of_Agamotto), it allows you, the bold trader, to harness the power of ~~theta~~ time.
 
 > **Note:** Code for the alpha version of **agamotto** will be released in due time.
 

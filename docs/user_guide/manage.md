@@ -23,7 +23,7 @@ The Manage tab provides a list of all your trades.
 ## About Trades and Strategies
 **agamotto** tracks your performance through **trades**. Each put/stock/call trade captures (1) an opening transaction, (2) a closing transaction, and (3) metadata about the trade.
 
-In addition, you can tag each trade to a **strategy**, which is simply a collection of trades. Combining the sale of different options creates different theta strategies. For example, a full Wheel cycle would involve (a) at least one put trade, (b) one stock trade, and (c) at least one call trade. It is <span class="fw-700 text-green-100">highly recommended</span> that you assign each trade to a strategy because **agamotto** can track the collective profits and cost basis for you.
+In addition, you can tag each trade to a **strategy**, which is simply a collection of trades. A full Wheel cycle would involve (a) at least one put trade, (b) one stock trade, and (c) at least one call trade. You can also group other options to track them together as a strategy (e.g. call credit spread, put credit spread). It is <span class="fw-700 text-green-100">highly recommended</span> that you assign each trade to a strategy because **agamotto** can track the collective profits and cost basis for you.
 
 ## Overview Section
 All trades are presented in a searchable and sortable table.
