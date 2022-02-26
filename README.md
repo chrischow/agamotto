@@ -103,12 +103,12 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 - Deployment:
     - [ ] Push container to Docker Hub
     - [ ] Set up GitHub Actions for CI
-- Admin:
-    - [ ] Use username instead of email
-    - [ ] Update admin page to long view with multiple sections
+- Admin: Nil
 - Dashboard:
     - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
     - [ ] Returns profile for strategy
+- Monitor:
+    - [ ] Fix buyback feature: wrong computation for call; it should be to *close position*
 - Manage:
     - [ ] Create dedicated view for each trade as an intermediate page between the list of all trades and the edit page
     - [ ] Create feature for deleting trades
@@ -141,6 +141,8 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
     - [X] Feature to download data, maybe on the Admin dashboard?
         - [X] CSV file
         - [X] ~~SQL file~~ (removed due to security)
+    - [X] Use username instead of email
+    - [X] Update admin page to long view with multiple sections
 - Deployment:
     - [X] Docker build
 - Dashboard:
