@@ -35,7 +35,7 @@ Note that open capital gains on stocks are not included here, since the assumpti
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-overview.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/dashboard-overview.jpg">
 </p>
 
 ## Stock Holdings
@@ -45,7 +45,7 @@ Given that capital gains are not tracked, **agamotto** provides a list of stocks
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-stocks.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/dashboard-stocks.jpg">
 </p>
 
 ## Profit Breakdown
@@ -60,7 +60,7 @@ This section provides an overview of the statuses of your Strategies. In particu
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-strategy.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/profit_breakdown-strategy.jpg">
 </p>
 
 ### Strategy: Detail
@@ -70,7 +70,7 @@ Click on the Strategy code to see more details about that Strategy. The detail v
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-strategy-detail-overview.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/dashboard-strategy-detail-overview.jpg">
 </p>
 
 <br>
@@ -81,7 +81,7 @@ In the trades table below, put/call options that are currently open are monitore
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/dashboard-strategy-detail-trades.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/dashboard-strategy-detail-trades.jpg">
 </p>
 
 ### Ticker
@@ -91,7 +91,7 @@ The table below provides a breakdown of profits by ticker.
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-ticker.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/profit_breakdown-ticker.jpg">
 </p>
 
 ### Trade
@@ -101,5 +101,5 @@ The table below provides a breakdown of profits by trade.
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/profit_breakdown-trade.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/profit_breakdown-trade.jpg">
 </p>

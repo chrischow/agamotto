@@ -32,7 +32,7 @@ All trades are presented in a searchable and sortable table.
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/manage-overview.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/manage-overview.jpg">
 </p>
 
 ## Adding a Trade
@@ -52,7 +52,7 @@ The strategy is also optional. However, once again, it is **highly recommended**
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/manage-add.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/manage-add.jpg">
 </p>
 
 ## Editing a Trade
@@ -62,7 +62,7 @@ When you close a trade, it is essential to update the closing date, price, and f
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/manage-edit.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/manage-edit.jpg">
 </p>
 
 > **Future Work:** Create a dedicated view for each trade as an intermediate page between the list of all trades and the edit page. Also allow deleting trades.

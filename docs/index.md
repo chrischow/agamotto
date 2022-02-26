@@ -8,7 +8,7 @@ permalink: /
 
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/project/static/img/agamotto_with_word.png" width="300">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/agamotto_with_word.png" width="300">
 </p>
 
 A simple app to help you stay on top of your Wheel options trading strategy.

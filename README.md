@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="project/static/img/agamotto_with_word.png" width="300">
+    <img src="docs/images/agamotto_with_word.png" width="300">
 </p>
 
 # agamotto - Wheel Options Strategy Management
@@ -9,7 +9,7 @@
         <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
     </a>
     <a href="https://flask.palletsprojects.com/en/2.0.x/">
-        <img src="project/static/img/bottled-in-flask.svg">
+        <img src="docs/images/bottled-in-flask.svg">
     </a>
 </p>
 
@@ -121,6 +121,7 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
 - Documentation:
     - [ ] Write docs for admin dashboard
     - [ ] Re-locate images used for docs
+    - [ ] Remove Flask initialisation and password creation from Getting Started docs (i.e. do it prior to building)
     - Re-factor docs to installation + deployment for different platforms
         - [ ] Local development server
         - [ ] Docker container with development server

@@ -27,7 +27,7 @@ The main page lists the open options positions, along with metadata on that posi
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/monitor-overview.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/monitor-overview.jpg">
 </p>
 
 ## Details
@@ -37,5 +37,5 @@ For more details on each position, click the Position ID. The position detail pa
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/monitor-detail.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/monitor-detail.jpg">
 </p>

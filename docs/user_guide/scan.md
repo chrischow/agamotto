@@ -36,7 +36,7 @@ Preset lists are provided for scanning (see table below). Most of these are list
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-presets.jpg" width="400">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/scan-presets.jpg" width="400">
 </p>
 
 
@@ -68,7 +68,7 @@ Alternatively, you can run scans on a custom list of tickers. Be sure to check t
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-custom.jpg" width="400">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/scan-custom.jpg" width="400">
 </p>
 
 ## Update Stock Metadata
@@ -79,7 +79,7 @@ This scan primarily supports the other scans. It is automatically run when you l
 
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/scan-stock-metadata.jpg" width="400">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/scan-stock-metadata.jpg" width="400">
 </p>
 
 > **Future Work:** Consider removing this. **agamotto** is for *option* selection, not for stock selection.

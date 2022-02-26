@@ -27,7 +27,7 @@ This page lists the options found from your scans. The list is searchable, sorta
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/analyse-options.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/analyse-options.jpg">
 </p>
 
 **agamotto** presents some metrics that may (or may not) be unconventional:
@@ -45,7 +45,7 @@ The detail view presents some data to help inform your decision to take up a pos
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/analyse-options-detail.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/analyse-options-detail.jpg">
 </p>
 
 Some more metrics that may (or may not) be unconventional:
@@ -62,7 +62,7 @@ This list is a work in progress. I recognise that this may not be the best place
 {: .no_toc }
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/screenshots/analyse-stocks.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/analyse-stocks.jpg">
 </p>
 
 > **Future Work:** Convert this to a table with qualitative information e.g. sector, industry, and company description.
