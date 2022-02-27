@@ -17,96 +17,20 @@
 
 > **Note:** Code for the alpha version of **agamotto** will be released in due time.
 
-## Prerequisites
-
-- Conda
-- A TD Ameritrade API key
-- If you want to operate the app on Docker:
-    - Docker
-    - Docker Compose
-
-## Installation
-Clone this repo to a local directory:
-
-```bash
-cd <your-directory>
-git clone https://github.com/chrischow/agamotto.git
-```
-
-Then, create a `.env` file in the `agamotto` directory with the following variables:
-
-```bash
-API_KEY=<TD Ameritrade API key>
-EMAIL=<Email cum username to initialise admin account>
-PASSWORD=<Password to initialise admin account>
-```
-
-### Without Docker
-Create a Conda environment and install the required packages:
-
-```bash
-conda create -n agamotto
-conda activate agamotto
-
-cd agamotto
-pip install -r requirements.txt
-```
-
-Next, initialise the Flask database:
-
-```bash
-flask db init
-flask db migrate -m "Initialise database"
-flask db upgrade
-```
-
-> Consider doing this as part of the initialisation. Then, you can remove this step from both the "Without Docker" and Dockerfile instructions.
-
-Then, create the admin account:
-
-```bash
-python create_admin.py
-```
-
-
-### With Docker
-I have yet to upload the image to Docker Hub. Until then, you'll need to build the Docker image locally:
-
-```bash
-cd agamotto
-docker build --tag agamotto .
-```
-
-## Usage
-
-### Without Docker
-Run the following commands to launch **agamotto** in a new terminal:
-
-```bash
-cd agamotto
-flask run
-```
-
-Note that this launches a development server, not a production server, but it should suffice for individual use.
-
-### With Docker
-Launch the app using Docker Compose. It can be accessed at `localhost:5050`.
-
-```bash
-docker-compose up
-```
+## Installation and Usage
+See the [documentation](https://chrischow.github.io/agamotto/getting_started) for the detailed instructions.
 
 ## Features
-See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough of the app.
+See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a walkthrough of the app.
 
 ## Future Work
 - Deployment:
     - [ ] Push container to Docker Hub
     - [ ] Set up GitHub Actions for CI
-- Admin: Nil
+- Admin:
+    - [ ] Consider [Flask-Dance](https://flask-dance.readthedocs.io/en/latest/multi-user.html) for OAuth
 - Dashboard:
-    - [ ] Break strategies down by put only, put rolled, full wheel, half wheel (sell stock after being assigned)
-    - [ ] Returns profile for strategy
+    - Nothing more so far
 - Monitor:
     - [ ] Fix buyback feature: wrong computation for call; it should be to *close position*
 - Manage:
@@ -120,7 +44,6 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
     - [ ] Add dedicated stock page and more info on the stock
 - Documentation:
     - [ ] Write docs for admin dashboard
-    - [ ] Re-locate images used for docs
     - [ ] Remove Flask initialisation and password creation from Getting Started docs (i.e. do it prior to building)
     - Re-factor docs to installation + deployment for different platforms
         - [ ] Local development server
@@ -149,10 +72,12 @@ See the [documentation](https://chrischow.github.io/agamotto) for a walkthrough 
     - [X] Strategy breakdown
     - [X] Overall table
     - [X] Plotly plot with wheel design
+    - [X] Returns profile for strategy
 - Manage:
     - [X] Create dedicated view for each trade as an intermediate page between the list of all trades and the edit page
 - Documentation:
     - [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
+    - [X] Re-locate images used for docs
 
 </details>
 
