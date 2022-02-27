@@ -27,6 +27,7 @@ See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a w
 - Deployment:
     - [ ] Push container to Docker Hub
     - [ ] Set up GitHub Actions for CI
+    - [ ] Develop serverless version on using AWS free tier
 - Admin:
     - [ ] Consider [Flask-Dance](https://flask-dance.readthedocs.io/en/latest/multi-user.html) for OAuth
 - Dashboard:
@@ -44,10 +45,8 @@ See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a w
     - [ ] Add dedicated stock page and more info on the stock
 - Documentation:
     - [ ] Write docs for admin dashboard
-    - [ ] Remove Flask initialisation and password creation from Getting Started docs (i.e. do it prior to building)
+    - [ ] Update docs based on latest features
     - Re-factor docs to installation + deployment for different platforms
-        - [ ] Local development server
-        - [ ] Docker container with development server
         - [ ] Google App Engine (using containers)
         - [ ] Heroku
         - [ ] PythonAnywhere
@@ -78,6 +77,10 @@ See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a w
 - Documentation:
     - [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
     - [X] Re-locate images used for docs
+    - [X] Remove Flask initialisation and password creation from Getting Started docs (i.e. do it prior to building)
+    - Re-factor docs to installation + deployment for different platforms
+        - [X] Local server (without Docker)
+        - [X] Local server (with Docker)
 
 </details>
 
