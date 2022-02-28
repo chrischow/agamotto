@@ -27,25 +27,25 @@ See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a w
 - Deployment:
     - [ ] Push container to Docker Hub
     - [ ] Set up GitHub Actions for CI
-    - [ ] Develop serverless version on using AWS free tier
+    - [ ] Develop **agamotto** cloud
 - Admin:
     - [ ] Consider [Flask-Dance](https://flask-dance.readthedocs.io/en/latest/multi-user.html) for OAuth
 - Dashboard:
-    - Nothing more so far
+    - TBC
 - Monitor:
-    - [ ] Fix buyback feature: wrong computation for call; it should be to *close position*
+    - TBC
 - Manage:
-    - [ ] Create feature for deleting trades
-    - [ ] Upload CSV function
+    - [ ] Upload CSV function - needs validation of dataframe
 - Scan:
-    - [ ] Consider removing stock metadata scan - **agamotto** is for *option* selection, not for stock selection
     - [ ] Enable creation of presets
 - Analyse:
-    - [ ] Convert stock metadata table to one with more qualitative information e.g. sector, industry, and company description
-    - [ ] Add dedicated stock page and more info on the stock
+    - TBC
 - Documentation:
     - [ ] Write docs for admin dashboard
-    - [ ] Update docs based on latest features
+    - [ ] Update screenshots for Strategy page
+    - [ ] Add docs for trade view: new view + delete function
+    - [ ] Remove stock metadata from Scan docs
+    - [ ] Remove stock lists from Analyse docs
     - Re-factor docs to installation + deployment for different platforms
         - [ ] Google App Engine (using containers)
         - [ ] Heroku
@@ -72,8 +72,15 @@ See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a w
     - [X] Overall table
     - [X] Plotly plot with wheel design
     - [X] Returns profile for strategy
+- Monitor:
+    - [X] Fix buyback feature: wrong computation for call; it should be to *close position*
 - Manage:
     - [X] Create dedicated view for each trade as an intermediate page between the list of all trades and the edit page
+    - [X] Create feature for deleting trades
+- Scan:
+    - TBC
+- Analyse:
+    - [X] Remove stock metadata scan - **agamotto** is for *option* selection, not for stock selection
 - Documentation:
     - [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
     - [X] Re-locate images used for docs
