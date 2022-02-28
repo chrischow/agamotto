@@ -48,11 +48,6 @@ This is just a high-level description. See the [documentation](https://chrischow
 - Analyse:
     - TBC
 - Documentation:
-    - [ ] Write docs for admin dashboard
-    - [ ] Update screenshots for Strategy page
-    - [ ] Add docs for trade view: new view + delete function
-    - [ ] Remove stock metadata from Scan docs
-    - [ ] Remove stock lists from Analyse docs
     - Re-factor docs to installation + deployment for different platforms
         - [ ] Google App Engine (using containers)
         - [ ] Heroku
@@ -92,6 +87,11 @@ This is just a high-level description. See the [documentation](https://chrischow
     - [X] Write documentation using [Just the Docs](https://github.com/pmarsceill/just-the-docs) ([demo site](https://pmarsceill.github.io/just-the-docs/))
     - [X] Re-locate images used for docs
     - [X] Remove Flask initialisation and password creation from Getting Started docs (i.e. do it prior to building)
+    - [X] Write docs for admin dashboard
+    - [X] Update screenshots for Strategy page
+    - [X] Add docs for trade view: new view + delete function
+    - [X] Remove stock metadata from Scan docs
+    - [X] Remove stock lists from Analyse docs
     - Re-factor docs to installation + deployment for different platforms
         - [X] Local server (without Docker)
         - [X] Local server (with Docker)
