@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/images/agamotto_with_word.png" width="300">
+    <img src="docs/images/agamotto_with_word.png">
 </p>
 
 # agamotto - Wheel Options Strategy Management
