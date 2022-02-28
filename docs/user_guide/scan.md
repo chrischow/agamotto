@@ -61,7 +61,7 @@ Each list has *about* 100 tickers. The reason is to fit the scans within the TD 
 Do not run multiple preset scans in quick succession. Wait approximately 1 minute after the completion of the first scan before launching another one.
 </span>
   
-> **Future Work:** Enable creation of presets.
+> **Comign Soon:** Create your own presets.
 
 ## Custom Scans
 Alternatively, you can run scans on a custom list of tickers. Be sure to check the checkbox if running a scan for ETFs - this applies to all tickers being scanned.

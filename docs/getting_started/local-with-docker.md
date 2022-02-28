@@ -38,7 +38,7 @@ cd agamotto
 docker build --tag agamotto .
 ```
 
-> **Future Work:** Push container image to Docker hub. Update instructions for getting image.
+> **Coming Soon:** Pull the container image directly from Docker hub.
 
 ## Usage
 Make sure you're in the **agamotto** folder. Launch the app in detached mode using Docker Compose. It can be accessed at `localhost:5050`.
