@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Local Server (With Docker)
+title: Local Server (Docker)
 nav_order: 1
 parent: Getting Started
 ---

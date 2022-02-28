@@ -30,11 +30,9 @@ See the [documentation](https://chrischow.github.io/agamotto/getting_started) fo
 
 This is just a high-level description. See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a full walkthrough of the app.
 
-## Future Work
+## To Do
 - Deployment:
-    - [ ] Push container to Docker Hub
     - [ ] Set up GitHub Actions for CI
-    - [ ] Develop **agamotto** cloud
 - Admin:
     - [ ] Consider [Flask-Dance](https://flask-dance.readthedocs.io/en/latest/multi-user.html) for OAuth
 - Dashboard:
@@ -69,6 +67,7 @@ This is just a high-level description. See the [documentation](https://chrischow
     - [X] Update admin page to long view with multiple sections
 - Deployment:
     - [X] Docker build
+    - [X] Push container to Docker Hub
 - Dashboard:
     - [X] Strategy breakdown
     - [X] Overall table
@@ -98,6 +97,8 @@ This is just a high-level description. See the [documentation](https://chrischow
 
 </details>
 
+## The Next Bound
+- [ ] Move to NoSQL database
 
 ## About the Project
 **agamotto** is © 2022 by Christian Chow.

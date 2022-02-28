@@ -1,12 +1,14 @@
 version: '3.8'
 services:
     agamotto:
-        image: agamotto:latest
+        image: agamotto:alpha-0.1
         entrypoint: ./scripts/entrypoint.sh
         env_file:
             - .env
         volumes:
             - ./data:/app/project/data
             - ./scripts:/app/scripts
+            - /etc/timezone:/etc/timezone:ro
+            - /etc/localtime:/etc/localtime:ro
         ports:
             - "5050:5000"
