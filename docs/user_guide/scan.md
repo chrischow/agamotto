@@ -23,11 +23,13 @@ The Scan feature allows you to identify potential **put options** to kickstart y
 ## Scan Options
 You have choices of two types of scans: (1) preset scans and (2) custom scans.
 
-This is where the app is somewhat opinionated: scans are **limited to put options only**. The reason is that the starting put option in the Wheel strategy is the only thing you *actually* have flexibility in choosing.
+This is where the app is somewhat opinionated: scans are **limited to put options only**. The first reason is that **agamotto** is tailored for managing your Wheel strategy, and these always start with the sale of a put option. The second reason is that the starting put option is the only trade you *actually* have flexibility in choosing under the Wheel strategy.
 
 - In choosing the **initial** put option, you have a choice over the (1) underlying, (2) strike, and (3) expiry. This we can scan for and optimise.
 - If you have to **roll** the put, you can only choose the strike and expiry, in which case the underlying's options chain should suffice in providing you the info you need.
-- If you get **assigned** and need to start selling covered calls, you only have a choice over the expiry date and *some* strikes, depending on your cost basis. The underlying's options chains should also suffice.
+- If you get **assigned** and need to start selling covered calls, you only have a choice over the expiry date and *some* strikes for the call option, depending on your cost basis. The underlying's options chains should also suffice.
+
+That said, logging your trades as a [strategy](https://chrischow.github.io/agamotto/user_guide/manage/#trades-and-strategies) still gives you access to the full capabilities that **agamotto** has for tracking your profits.
 
 ## Preset Lists
 Preset lists are provided for scanning (see table below). Most of these are lists of ETFs with options. ETFs were chosen because of their relative stability. In the event that you get assigned, you may be more comfortable (or at least, I am) holding an ETF instead of a small set of stocks. The remaining lists are lists of stocks in several popular ETFs. See the full list of tickers [here](#preset-lists).
@@ -70,22 +72,6 @@ Alternatively, you can run scans on a custom list of tickers. Be sure to check t
 <p align="center">
     <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/scan-custom.jpg" width="400">
 </p>
-
-## Update Stock Metadata
-
-<span class="label label-yellow">WIP</span>
-
-This scan primarily supports the other scans. It is automatically run when you launch scans on tickers that **agamotto** does not have metadata on, but can be run manually as well. The output is information on specific companies and their stock price movement statistics.
-
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/scan-stock-metadata.jpg" width="400">
-</p>
-
-> **Future Work:** Consider removing this. **agamotto** is for *option* selection, not for stock selection.
-
-
-<div id="preset-lists"></div>
 
 ## Tickers in Preset Lists
 

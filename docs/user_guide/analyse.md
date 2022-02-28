@@ -54,15 +54,3 @@ Some more metrics that may (or may not) be unconventional:
 | :----: | :---------- |
 | `Delta-adjusted Return` | ROI, adjusted (divided) by delta as the "risk" |
 | `IV-adjusted Return` | ROI, adjusted (divided) by IV as the "risk" |
-
-## Stocks List
-This list is a work in progress. I recognise that this may not be the best place to filter stocks for choosing an underlying. Leaving this here for now.
-
-#### Stocks List
-{: .no_toc }
-
-<p align="center">
-    <img src="https://raw.githubusercontent.com/chrischow/agamotto/main/docs/images/analyse-stocks.jpg">
-</p>
-
-> **Future Work:** Convert this to a table with qualitative information e.g. sector, industry, and company description.

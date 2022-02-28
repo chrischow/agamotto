@@ -21,7 +21,14 @@
 See the [documentation](https://chrischow.github.io/agamotto/getting_started) for the detailed instructions.
 
 ## Features
-See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a walkthrough of the app.
+**agamotto** enables you to:
+
+- Scan for put options to initiate a Wheel strategy
+- Log put/call options and stock trades
+- Monitor your open options trades, with recommendations to buyback or roll
+- Get a high-level overview of your profits, broken down by strategy, ticker, and trade
+
+This is just a high-level description. See the [documentation](https://chrischow.github.io/agamotto/user_guide) for a full walkthrough of the app.
 
 ## Future Work
 - Deployment:

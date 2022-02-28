@@ -64,7 +64,7 @@ This section provides an overview of the statuses of your Strategies. In particu
 </p>
 
 ### Strategy: Detail
-Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using key metrics from the overview, a timeline / Gantt chart of the trades under the Strategy, and information about each trade.
+Click on the Strategy code to see more details about that Strategy. The detail view summarises the Strategy using (1) key metrics on the strategy, (2) a profit/loss diagram, (3) a timeline / Gantt chart of the trades under the Strategy, and (3) information on the constituent trades.
 
 #### Strategy Details: Overview
 {: .no_toc }
